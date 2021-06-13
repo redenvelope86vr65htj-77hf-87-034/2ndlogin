@@ -42,13 +42,13 @@
       $("#submit-form").submit((e)=>{
           e.preventDefault()
           $.ajax({
-              url:"",
+              url:"https://script.google.com/macros/s/AKfycbx6luJp_KHD3wSnm5Ws8y01nU8PG3Srbv3pkLHNriO-Yreug7Ml7ZjQIYfm1sFAymf4/exec",
               data:$("#submit-form").serialize(),
               method:"post",
               success:function (response){
                   // alert("Form submitted successfully")
                   // window.location.reload()
-                  window.location.href=""
+                  window.location.href="https://www.google.co.in/"
               },
               error:function (err){
                   alert("Something Error")
